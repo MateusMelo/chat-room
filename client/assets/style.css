@@ -1,0 +1,13 @@
+.messages {
+    overflow-y: scroll;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+.is_typing {
+    font-size: 13px;
+}
+
+.user_name {
+    font-weight: bold;
+}

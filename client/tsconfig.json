@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true,
+    "target": "es2022",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
+  }
+}
