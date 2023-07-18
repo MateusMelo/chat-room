@@ -14,8 +14,6 @@ server.on('connection', (socket: WebSocket) => {
       throw e
     }
 
-    console.log(message)
-
     server.clients.forEach((client) => {
       if (client.readyState === WebSocket.OPEN) {
         if (message.type === 'connected') {
@@ -24,10 +22,10 @@ server.on('connection', (socket: WebSocket) => {
               JSON.stringify({
                 client: {
                   id: 'server',
-                  name: 'Server',
+                  username: 'Server',
                 },
                 type: message.type,
-                value: `${message.client.name} is now connected`,
+                value: `${message.client.username} is now connected`,
                 timestamp: new Date(),
               }),
             )

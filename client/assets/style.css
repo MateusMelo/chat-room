@@ -1,13 +1,18 @@
+.hide {
+    display: none;
+}
+
 .messages {
     overflow-y: scroll;
+    min-height: 100px;
     max-height: 100px;
     margin-bottom: 10px;
 }
 
-.is_typing {
+.is-typing-info {
     font-size: 13px;
 }
 
-.user_name {
+.username {
     font-weight: bold;
 }

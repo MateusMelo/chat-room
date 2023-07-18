@@ -9,13 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <div id="messages" class="messages">
-
+        <div id="userinfo-wrapper">
+            <input id="username" type="text" value="" placeholder="Choose your username">
+            <input id="send-username" type="button" value="Send">
         </div>
-        <div>
-            <input id="input" type="text" value="">
-            <input id="send" type="button" value="Send">
-            <div id="istyping" class="is_typing"></div>
+        <div id="messages-wrapper" class="hide">
+            <div id="messages" class="messages"></div>
+            <div>
+                <input id="message-value" type="text" value="" placeholder="Write a message">
+                <input id="send-message" type="button" value="Send">
+                <span id="is-typing" class="is-typing"></span>
+            </div>
         </div>
     </div>
 
