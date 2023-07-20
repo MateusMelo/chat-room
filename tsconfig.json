@@ -12,7 +12,8 @@
     "outDir": "./dist"
   },
   "exclude": [
-    "client"
+    "./client/**/*",
+    "./dist/**/*"
   ],
   "references": [
     { "path": "./client" }

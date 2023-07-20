@@ -11,5 +11,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist"
-  }
+  },
+  "exclude": [
+    "./dist/**/*"
+  ]
 }
