@@ -13,7 +13,8 @@
   },
   "exclude": [
     "./client/**/*",
-    "./dist/**/*"
+    "./dist/**/*",
+    "./types/**/*"
   ],
   "references": [
     { "path": "./client" }
